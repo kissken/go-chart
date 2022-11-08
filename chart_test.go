@@ -8,11 +8,10 @@ import (
 	"testing"
 	"time"
 
-
 	"github.com/blend/go-sdk/assert"
 
-	"github.com/beevee/go-chart/drawing"
-	"github.com/beevee/go-chart/seq"
+	"github.com/kissken/go-chart/drawing"
+	"github.com/kissken/go-chart/seq"
 )
 
 func TestChartGetDPI(t *testing.T) {

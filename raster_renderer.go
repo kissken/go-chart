@@ -7,8 +7,8 @@ import (
 	"math"
 
 	"github.com/golang/freetype/truetype"
-	"github.com/beevee/go-chart/drawing"
-	"github.com/beevee/go-chart/util"
+	"github.com/kissken/go-chart/drawing"
+	"github.com/kissken/go-chart/util"
 )
 
 // PNG returns a new png/raster renderer.

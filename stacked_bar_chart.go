@@ -7,8 +7,8 @@ import (
 	"math"
 
 	"github.com/golang/freetype/truetype"
-	"github.com/beevee/go-chart/seq"
-	util "github.com/beevee/go-chart/util"
+	"github.com/kissken/go-chart/seq"
+	util "github.com/kissken/go-chart/util"
 )
 
 // StackedBar is a bar within a StackedBarChart.

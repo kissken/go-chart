@@ -5,7 +5,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/beevee/go-chart/util"
+	"github.com/kissken/go-chart/util"
 )
 
 // TicksProvider is a type that provides ticks.
@@ -278,7 +278,7 @@ func calculateSimplicityMax(prettyStepIndex, prettyStepsCount, stepsToSkip float
 }
 
 func calculateCoverage(rangeMin, rangeMax, tickMin, tickMax float64) float64 {
-	return 1 - 0.5*(math.Pow(rangeMax-tickMax, 2)+math.Pow(rangeMin-tickMin, 2))/math.Pow(0.1*(rangeMax-rangeMin), 2)
+	return 1 - 0.5*((rangeMax-tickMax)*(rangeMax-tickMax)+(rangeMin-tickMin)*(rangeMin-tickMin))/(0.1*(rangeMax-rangeMin)*0.1*(rangeMax-rangeMin))
 }
 
 func calculateCoverageMax(rangeMin, rangeMax, span float64) float64 {
@@ -286,7 +286,7 @@ func calculateCoverageMax(rangeMin, rangeMax, span float64) float64 {
 		return 1
 	}
 
-	return 1 - math.Pow((rangeMax-rangeMin)/2, 2)/math.Pow(0.1*(rangeMax-rangeMin), 2)
+	return 1 - ((rangeMax-rangeMin)/2*(rangeMax-rangeMin)/2)/(0.1*(rangeMax-rangeMin)*0.1*(rangeMax-rangeMin))
 }
 
 func calculateDensity(ticksCount, desiredTicksCount, rangeMin, rangeMax, tickMin, tickMax float64) float64 {

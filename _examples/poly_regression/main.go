@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/beevee/go-chart"
-	"github.com/beevee/go-chart/seq"
+	"github.com/kissken/go-chart"
+	"github.com/kissken/go-chart/seq"
 )
 
 func drawChart(res http.ResponseWriter, req *http.Request) {
