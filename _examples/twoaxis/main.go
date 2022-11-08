@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/beevee/go-chart"
-	util "github.com/beevee/go-chart/util"
+	"github.com/kissken/go-chart"
+	util "github.com/kissken/go-chart/util"
 )
 
 func drawChart(res http.ResponseWriter, req *http.Request) {
