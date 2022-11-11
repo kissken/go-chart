@@ -10,8 +10,8 @@ import (
 
 	"github.com/blend/go-sdk/assert"
 
-	"github.com/kissken/go-chart/drawing"
-	"github.com/kissken/go-chart/seq"
+	"go-chart/drawing"
+	"go-chart/seq"
 )
 
 func TestChartGetDPI(t *testing.T) {

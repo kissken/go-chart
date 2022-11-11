@@ -7,7 +7,7 @@ import (
 	"os"
 
 	"github.com/kissken/go-chart"
-	"github.com/kissken/go-chart/drawing"
+	"go-chart/drawing"
 )
 
 func drawChart(res http.ResponseWriter, req *http.Request) {
