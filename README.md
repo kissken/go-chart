@@ -1,6 +1,6 @@
 fork-go-chart
 ========
-[![CircleCI](https://circleci.com/gh/wcharczuk/fork-go-chart.svg?style=svg)](https://circleci.com/gh/wcharczuk/fork-go-chart) [![Go Report Card](https://goreportcard.com/badge/github.com/wcharczuk/fork-go-chart)](https://goreportcard.com/report/github.com/wcharczuk/fork-go-chart)
+[![CircleCI](https://circleci.com/gh/wcharczuk/go-chart/.svg?style=svg)](https://circleci.com/gh/wcharczuk/go-chart/) [![Go Report Card](https://goreportcard.com/badge/github.com/wcharczuk/go-chart/)](https://goreportcard.com/report/github.com/wcharczuk/go-chart/)
 
 Package `chart` is a very simple golang native charting library that supports timeseries and continuous
 line charts.
@@ -14,7 +14,7 @@ Master should now be on the v2.x codebase, which brings a couple new features an
 To install `chart` run the following:
 
 ```bash
-> go get -u github.com/wcharczuk/fork-go-chart
+> go get -u github.com/wcharczuk/go-chart/
 ```
 
 Most of the components are interchangeable so feel free to crib whatever you want.
@@ -61,7 +61,7 @@ import (
     ...
     "bytes"
     ...
-    "github.com/wcharczuk/fork-go-chart" //exposes "chart"
+    "github.com/wcharczuk/go-chart/" //exposes "chart"
 )
 
 graph := chart.Chart{
