@@ -3,9 +3,9 @@ package main
 import (
 	"net/http"
 
-	"github.com/kissken/go-chart"
-	"github.com/kissken/go-chart/drawing"
-	"github.com/kissken/go-chart/seq"
+	"github.com/kissken/fork-go-chart"
+	"go-chart/drawing"
+	"go-chart/seq"
 )
 
 func drawChart(res http.ResponseWriter, req *http.Request) {

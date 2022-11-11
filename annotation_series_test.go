@@ -6,7 +6,7 @@ import (
 
 	"github.com/blend/go-sdk/assert"
 
-	"github.com/kissken/go-chart/drawing"
+	"go-chart/drawing"
 )
 
 func TestAnnotationSeriesMeasure(t *testing.T) {

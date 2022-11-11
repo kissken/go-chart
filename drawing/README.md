@@ -1,4 +1,4 @@
-go-chart > drawing
+fork-go-chart > drawing
 ==================
 
 The bulk of the code in this package is based on [draw2d](https://github.com/llgcode/draw2d), but

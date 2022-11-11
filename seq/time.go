@@ -3,7 +3,7 @@ package seq
 import (
 	"time"
 
-	"github.com/kissken/go-chart/util"
+	"go-chart/util"
 )
 
 // Time is a utility singleton with helper functions for time seq generation.

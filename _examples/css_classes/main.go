@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/kissken/go-chart"
+	"github.com/kissken/fork-go-chart"
 	"log"
 	"net/http"
 )

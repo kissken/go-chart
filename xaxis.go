@@ -3,7 +3,7 @@ package chart
 import (
 	"math"
 
-	"github.com/kissken/go-chart/util"
+	"go-chart/util"
 )
 
 // XAxis represents the horizontal axis.
