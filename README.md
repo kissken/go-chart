@@ -23,27 +23,27 @@ Most of the components are interchangeable so feel free to crib whatever you wan
 
 Spark Lines:
 
-![](https://raw.githubusercontent.com/wcharczuk/fork-go-chart/master/_images/tvix_ltm.png)
+![](https://raw.githubusercontent.com/wcharczuk/go-chart/master/_images/tvix_ltm.png)
 
 Single axis:
 
-![](https://raw.githubusercontent.com/wcharczuk/fork-go-chart/master/_images/goog_ltm.png)
+![](https://raw.githubusercontent.com/wcharczuk/go-chart/master/_images/goog_ltm.png)
 
 Two axis:
 
-![](https://raw.githubusercontent.com/wcharczuk/fork-go-chart/master/_images/two_axis.png)
+![](https://raw.githubusercontent.com/wcharczuk/go-chart/master/_images/two_axis.png)
 
 # Other Chart Types
 
 Pie Chart:
 
-![](https://raw.githubusercontent.com/wcharczuk/fork-go-chart/master/_images/pie_chart.png)
+![](https://raw.githubusercontent.com/wcharczuk/go-chart/master/_images/pie_chart.png)
 
 The code for this chart can be found in `_examples/pie_chart/main.go`.
 
 Stacked Bar:
 
-![](https://raw.githubusercontent.com/wcharczuk/fork-go-chart/master/_images/stacked_bar.png)
+![](https://raw.githubusercontent.com/wcharczuk/go-chart/master/_images/stacked_bar.png)
 
 The code for this chart can be found in `_examples/stacked_bar/main.go`.
 
