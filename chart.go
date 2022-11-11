@@ -7,7 +7,7 @@ import (
 	"math"
 
 	"github.com/golang/freetype/truetype"
-	util "go-chart/util"
+	util "github.com/kissken/go-chart/util"
 )
 
 // Chart is what we're drawing.

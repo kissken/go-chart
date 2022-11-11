@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math"
 
-	"go-chart/matrix"
-	util "go-chart/util"
+	"github.com/kissken/go-chart/matrix"
+	util "github.com/kissken/go-chart/util"
 )
 
 // Interface Assertions.

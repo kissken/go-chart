@@ -5,7 +5,7 @@ import (
 	"math"
 	"strings"
 
-	"go-chart/util"
+	"github.com/kissken/go-chart/util"
 )
 
 // TicksProvider is a type that provides ticks.

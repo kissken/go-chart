@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/kissken/go-chart"
-	"go-chart/seq"
+	"github.com/kissken/go-chart/seq"
 )
 
 func drawChart(res http.ResponseWriter, req *http.Request) {

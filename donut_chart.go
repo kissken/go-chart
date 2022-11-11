@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/golang/freetype/truetype"
-	"go-chart/util"
+	"github.com/kissken/go-chart/util"
 	"io"
 )
 

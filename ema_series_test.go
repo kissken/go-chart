@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/blend/go-sdk/assert"
-	"go-chart/seq"
+	"github.com/kissken/go-chart/seq"
 )
 
 var (

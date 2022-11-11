@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	assert "github.com/blend/go-sdk/assert"
-	"go-chart/seq"
+	"github.com/kissken/go-chart/seq"
 )
 
 func TestConcatSeries(t *testing.T) {

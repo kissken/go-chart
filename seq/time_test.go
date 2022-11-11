@@ -5,7 +5,7 @@ import (
 	"time"
 
 	assert "github.com/blend/go-sdk/assert"
-	"go-chart/util"
+	"github.com/kissken/go-chart/util"
 )
 
 func TestTimeHours(t *testing.T) {
