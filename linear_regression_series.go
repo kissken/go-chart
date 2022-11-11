@@ -3,8 +3,8 @@ package chart
 import (
 	"fmt"
 
-	"go-chart/seq"
-	util "go-chart/util"
+	"github.com/kissken/go-chart/seq"
+	util "github.com/kissken/go-chart/util"
 )
 
 // Interface Assertions.

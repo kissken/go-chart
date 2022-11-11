@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"go-chart/util"
+	"github.com/kissken/go-chart/util"
 
 	chart "github.com/kissken/go-chart"
 )

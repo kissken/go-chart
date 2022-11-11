@@ -3,7 +3,7 @@ package chart
 import (
 	"math"
 
-	"go-chart/util"
+	"github.com/kissken/go-chart/util"
 )
 
 // YAxis is a veritcal rule of the range.

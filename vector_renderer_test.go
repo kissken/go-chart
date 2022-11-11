@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/blend/go-sdk/assert"
-	"go-chart/drawing"
+	"github.com/kissken/go-chart/drawing"
 )
 
 func TestVectorRendererPath(t *testing.T) {

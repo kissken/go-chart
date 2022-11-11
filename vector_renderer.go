@@ -10,8 +10,8 @@ import (
 	"golang.org/x/image/font"
 
 	"github.com/golang/freetype/truetype"
-	"go-chart/drawing"
-	"go-chart/util"
+	"github.com/kissken/go-chart/drawing"
+	"github.com/kissken/go-chart/util"
 )
 
 // SVG returns a new png/raster renderer.
