@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/blend/go-sdk/assert"
-	"github.com/kissken/go-chart/seq"
-	"github.com/kissken/go-chart/util"
+	"go-chart/seq"
+	"go-chart/util"
 )
 
 type mockValuesProvider struct {

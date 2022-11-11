@@ -3,7 +3,7 @@ package chart
 import (
 	"math"
 
-	util "github.com/kissken/go-chart/util"
+	util "go-chart/util"
 )
 
 var (
